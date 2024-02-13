@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[User Login]]>
+    </line>
+    <line>
+      <![CDATA[User Logout]]>
+    </line>
+    <line>
+      <![CDATA[User Login]]>
+    </line>
+    <line>
+      <![CDATA[User Logout]]>
+    </line>
+    <line>
+      <![CDATA[User Login]]>
+    </line>
+    <line>
+      <![CDATA[User Logout]]>
+    </line>
+    <line>
+      <![CDATA[User Login]]>
+    </line>
+    <line>
+      <![CDATA[User Logout]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-02-05T22:19:08 IST" name="Default suite" finished-at="2024-02-05T22:19:29 IST" duration-ms="21467">
+    <groups>
+    </groups>
+    <test started-at="2024-02-05T22:19:08 IST" name="Default test" finished-at="2024-02-05T22:19:29 IST" duration-ms="21467">
+      <class name="DataDriven.Automate_Excel_Data">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:DataDriven.Automate_Excel_Data@6d60fe40]" started-at="2024-02-05T22:19:08 IST" name="launchBrowser" finished-at="2024-02-05T22:19:14 IST" duration-ms="5742" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:DataDriven.Automate_Excel_Data@6d60fe40]" started-at="2024-02-05T22:19:15 IST" name="Login" finished-at="2024-02-05T22:19:15 IST" duration-ms="498" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="testCase(java.lang.String,java.lang.String)[pri:0, instance:DataDriven.Automate_Excel_Data@6d60fe40]" started-at="2024-02-05T22:19:15 IST" name="testCase" data-provider="credential" finished-at="2024-02-05T22:19:17 IST" duration-ms="2156" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shaan3227@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:DataDriven.Automate_Excel_Data@6d60fe40]" started-at="2024-02-05T22:19:17 IST" name="Logout" finished-at="2024-02-05T22:19:19 IST" duration-ms="1568" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:DataDriven.Automate_Excel_Data@6d60fe40]" started-at="2024-02-05T22:19:19 IST" name="Login" finished-at="2024-02-05T22:19:19 IST" duration-ms="482" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="testCase(java.lang.String,java.lang.String)[pri:0, instance:DataDriven.Automate_Excel_Data@6d60fe40]" started-at="2024-02-05T22:19:19 IST" name="testCase" data-provider="credential" finished-at="2024-02-05T22:19:21 IST" duration-ms="1480" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chetna3227@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:DataDriven.Automate_Excel_Data@6d60fe40]" started-at="2024-02-05T22:19:21 IST" name="Logout" finished-at="2024-02-05T22:19:22 IST" duration-ms="1193" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:DataDriven.Automate_Excel_Data@6d60fe40]" started-at="2024-02-05T22:19:22 IST" name="Login" finished-at="2024-02-05T22:19:23 IST" duration-ms="464" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="testCase(java.lang.String,java.lang.String)[pri:0, instance:DataDriven.Automate_Excel_Data@6d60fe40]" started-at="2024-02-05T22:19:23 IST" name="testCase" data-provider="credential" finished-at="2024-02-05T22:19:24 IST" duration-ms="1339" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amitdas3227@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:DataDriven.Automate_Excel_Data@6d60fe40]" started-at="2024-02-05T22:19:24 IST" name="Logout" finished-at="2024-02-05T22:19:26 IST" duration-ms="1831" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:DataDriven.Automate_Excel_Data@6d60fe40]" started-at="2024-02-05T22:19:26 IST" name="Login" finished-at="2024-02-05T22:19:26 IST" duration-ms="448" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="testCase(java.lang.String,java.lang.String)[pri:0, instance:DataDriven.Automate_Excel_Data@6d60fe40]" started-at="2024-02-05T22:19:26 IST" name="testCase" data-provider="credential" finished-at="2024-02-05T22:19:28 IST" duration-ms="1548" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[manu3227@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:DataDriven.Automate_Excel_Data@6d60fe40]" started-at="2024-02-05T22:19:28 IST" name="Logout" finished-at="2024-02-05T22:19:29 IST" duration-ms="1210" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:DataDriven.Automate_Excel_Data@6d60fe40]" started-at="2024-02-05T22:19:29 IST" name="quitBrowser" finished-at="2024-02-05T22:19:29 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- DataDriven.Automate_Excel_Data -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
